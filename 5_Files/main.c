@@ -7,8 +7,6 @@
 const char *FILENAME = "file.txt";
 
 void writeToFile() {
-    printf("=== Write to file! ===\n");
-
     FILE *f = fopen(FILENAME, "w");
     if (f == NULL)
     {
@@ -18,28 +16,23 @@ void writeToFile() {
 
     const char *text = "Write this to the file";
     fprintf(f, "Some text: %s\n", text);
-    printf(".");
+    printf("Some text: %s\n", text);
 
     int i = 1;
     float py = 3.1415927;
     fprintf(f, "Integer: %d, float: %f\n", i, py);
-    printf(".");
+    printf("Integer: %d, float: %f\n", i, py);
 
     char c = 'A';
     fprintf(f, "A character: %c\n", c);
-    printf(".\n");
+    printf("A character: %c\n", c);
 
     fclose(f);
-    printf("Write completed!\n");
 }
 
 void readFromFile() {
-    printf("\n=== Read from file! ===\n");
-
     char ch;
-    FILE *fp;
-
-    fp = fopen(FILENAME, "r"); // read mode
+    FILE *fp = fopen(FILENAME, "r");
 
     if (fp == NULL)
     {
@@ -56,8 +49,13 @@ void readFromFile() {
 }
 
 int main() {
+    printf("\n=== Write to file! ===\n");
     writeToFile();
+    printf("=== Write to file completed! ===\n");
+
+    printf("\n=== Read from file! ===\n");
     readFromFile();
+    printf("=== Read from file completed! ===\n");
 
     return 0;
 }
