@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\github\C\HelloWorld
+CMAKE_SOURCE_DIR = C:\github\C_Examples\1_Swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\github\C\HelloWorld\cmake-build-debug
+CMAKE_BINARY_DIR = C:\github\C_Examples\1_Swap\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\C\HelloWorld\cmake-build-debug\CMakeFiles C:\github\C\HelloWorld\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\C_Examples\1_Swap\cmake-build-debug\CMakeFiles C:\github\C_Examples\1_Swap\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\C\HelloWorld\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\C_Examples\1_Swap\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,17 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HelloWorld
+# Target rules for targets named 1_Swap
 
 # Build rule for target.
-HelloWorld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) HelloWorld
-.PHONY : HelloWorld
+1_Swap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 1_Swap
+.PHONY : 1_Swap
 
 # fast build rule for target.
-HelloWorld\fast:
-	$(MAKE) -f CMakeFiles\HelloWorld.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloWorld.dir\build
-.PHONY : HelloWorld\fast
+1_Swap\fast:
+	$(MAKE) -f CMakeFiles\1_Swap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1_Swap.dir\build
+.PHONY : 1_Swap\fast
 
 main.obj: main.c.obj
 
@@ -130,7 +130,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\HelloWorld.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloWorld.dir\main.c.obj
+	$(MAKE) -f CMakeFiles\1_Swap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1_Swap.dir\main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -139,7 +139,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\HelloWorld.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloWorld.dir\main.c.i
+	$(MAKE) -f CMakeFiles\1_Swap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1_Swap.dir\main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -148,7 +148,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\HelloWorld.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloWorld.dir\main.c.s
+	$(MAKE) -f CMakeFiles\1_Swap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1_Swap.dir\main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... HelloWorld
+	@echo ... 1_Swap
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

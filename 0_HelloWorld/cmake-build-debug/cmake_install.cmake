@@ -1,8 +1,8 @@
-# Install script for directory: C:/github/C/HelloWorld
+# Install script for directory: C:/github/C_Examples/0_HelloWorld
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HelloWorld")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/0")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/github/C/HelloWorld/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/github/C_Examples/0_HelloWorld/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

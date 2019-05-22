@@ -1,0 +1,3 @@
+C:/github/C_Examples/2_Swap_DoublePointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/github/C_Examples/2_Swap_DoublePointers/cmake-build-debug/CMakeFiles/1_Swap_DoublePointers.dir
+C:/github/C_Examples/2_Swap_DoublePointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

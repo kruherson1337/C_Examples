@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(HelloWorld C)
+project(1_Swap)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(HelloWorld main.c)
+add_executable(1_Swap main.c)
