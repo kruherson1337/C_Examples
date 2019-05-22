@@ -1,0 +1,3 @@
+C:/github/C_Examples/5_Files/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/github/C_Examples/5_Files/cmake-build-debug/CMakeFiles/5_Files.dir
+C:/github/C_Examples/5_Files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
